@@ -16,7 +16,7 @@ CFLAGS	+= -Wstrict-prototypes
 CFLAGS	+= -Wundef
 CFLAGS	+= -Wunused-result
 CFLAGS	+= -Wimplicit-fallthrough
-CFLAGS	+= -Wformat-truncation=2
+CFLAGS	+= -Wformat-truncation=0
 CFLAGS	+= -Werror
 
 all:	$(OUT)
